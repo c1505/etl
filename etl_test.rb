@@ -20,7 +20,7 @@ class TransformTest < Minitest::Test
   end
 
   def test_more_keys
-    skip
+    
     old = { 1 => %w(A E), 2 => %w(D G) }
     expected = {
       'a' => 1,
