@@ -33,7 +33,7 @@ class TransformTest < Minitest::Test
   end
 
   def test_full_dataset # rubocop:disable Metrics/MethodLength
-    skip
+    
     old = {
       1 => %w(A E I O U L N R S T),
       2 => %w(D G),

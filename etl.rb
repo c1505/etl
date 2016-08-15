@@ -9,6 +9,3 @@ class ETL
     new_hash
   end
 end
-
-# old = { 1 => %w(A E I O U) }
-#     expected = { 'a' => 1, 'e' => 1, 'i' => 1, 'o' => 1, 'u' => 1 }
